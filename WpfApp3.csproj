@@ -1,0 +1,168 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="images\cosmos.jpg" />
+		<None Remove="images\fon.jpg" />
+		<None Remove="images\fon2.jpg" />
+		<None Remove="images\fon3.jpg" />
+		<None Remove="images\fon4.jpg" />
+		<None Remove="images\Snimok1.png" />
+		<None Remove="images\Snimok2.png" />
+		<None Remove="images\Snimok3.png" />
+		<None Remove="images\Snimok4.png" />
+		<None Remove="images\Snimok5.png" />
+		<None Remove="images\Snimok6.png" />
+		<None Remove="images\Snimok7.png" />
+		<None Remove="images\Snimok8.png" />
+		<None Remove="images\Snimok9.png" />
+		<None Remove="images\Snimok10.png" />
+		<None Remove="images\Snimok12.png" />
+		<None Remove="images\Snimok13.png" />
+		<None Remove="images\Snimok14.png" />
+		<None Remove="images\Snimok15.png" />
+		<None Remove="images\Snimok16.png" />
+		<None Remove="images\Snimok17.png" />
+		<None Remove="images\Snimok18.png" />
+		<None Remove="images\Snimok19.png" />
+		<None Remove="images\Snimok20.png" />
+		<None Remove="images\Snimok21.png" />
+		<None Remove="images\Snimok22.png" />
+		<None Remove="images\Snimok23.png" />
+		<None Remove="images\Snimok24.png" />
+		<None Remove="images\Snimok25.png" />
+		<None Remove="images\Snimok26.png" />
+		<None Remove="images\Snimok27.png" />
+		<None Remove="images\Snimok28.png" />
+		<None Remove="images\Snimok29.png" />
+		<None Remove="images\Snimok30.png" />
+		
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+		<PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Page Include="App.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="images\cosmos.jpg">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\fon.jpg">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\fon2.jpg">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\fon3.jpg">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\fon4.jpg">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok1.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok2.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok3.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok4.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok5.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok6.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok7.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok8.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok9.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok10.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok11.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok12.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok13.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok14.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok15.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok16.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok17.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok18.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok19.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok20.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok21.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok22.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok22.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok23.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok24.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok25.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok26.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok27.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok28.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok29.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\Snimok30.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+</Project>

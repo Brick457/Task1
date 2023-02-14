@@ -1,0 +1,64 @@
+﻿<Page x:Class="WpfApp3.View.Pages.TaskPages.Task27"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp3.View.Pages.TaskPages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="600">
+    <Border>
+        <Grid>
+            <Image Source="/images/fon3.jpg"
+                   Stretch="UniformToFill" Margin="0,0,1,0"/>
+
+            <Border Background="LightGray"
+            Width="520"
+            HorizontalAlignment="Center"
+            CornerRadius="10" Margin="0,258,0,182"
+            >
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.4*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Border Grid.Row="0" Margin="333,45,-415,119" Grid.RowSpan="2" RenderTransformOrigin="0.357,0.255">
+                        <Image Source="/images/Snimok27.png" Margin="-382,-42,397,68"/>
+
+
+                    </Border>
+                    <StackPanel Grid.Row="1" Orientation="Vertical">
+                        <TextBox x:Name="TBy22" Width="112" Height="21" Margin="5 5 0 0"/>
+
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Vertical">
+                        <TextBlock Text="Переменная p:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="85" Margin="0,35,0,0" Grid.Row="1"></TextBlock>
+                        <TextBox x:Name="TBp2" Width="110" Height="21" Margin="5 -25 0 0"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Vertical">
+                        <TextBlock Text="Переменная y:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="85" Margin="0,5,0,0" Grid.Row="1"></TextBlock>
+
+                    </StackPanel>
+
+                    <Button Width="100" Margin="75,108,75,24" Grid.Row="1"
+                        Background="SlateGray"
+                        x:Name="BTN27"
+                        Click="BTN27_Click">
+                        <StackPanel>
+                            <TextBlock Text="Решение" VerticalAlignment="Top" Height="22" ></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    x:Name="BtnBack"
+                    Margin="12,-222,0,0"
+                    Click="BtnBack_Click"
+                    Background="Transparent"
+                     Foreground="#FFFFFF"
+                     Content="{materialDesign:PackIcon Kind=ArrowLeft}"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Page>

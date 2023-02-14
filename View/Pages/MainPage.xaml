@@ -1,0 +1,293 @@
+﻿<Page x:Class="WpfApp3.View.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp3.View.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="600"
+      Title="MainPage">
+    <Border>
+        <Grid Margin="0,0,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12*"/>
+                <RowDefinition Height="163*"/>
+            </Grid.RowDefinitions>
+            <Image Source="/images/cosmos.jpg"
+                   Stretch="UniformToFill" Margin="10,-14,0,-2" Grid.RowSpan="2"/>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN1"
+                Click="MNBTN1_Click" Margin="31,3,494,632" Grid.RowSpan="2"
+                >
+                <TextBlock Text="1" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN2"
+                Click="MNBTN2_Click" Margin="31,37,494,550" Grid.Row="1"
+                >
+                <TextBlock Text="2" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN3"
+                Click="MNBTN3_Click" Margin="31,122,494,465" Grid.Row="1"
+                >
+                <TextBlock Text="3" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN4_Copy"
+                Click="MNBTN4_Click" Margin="31,208,494,379" Grid.Row="1"
+                >
+                <TextBlock Text="4" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN5_Copy1"
+                Click="MNBTN5_Click" Margin="31,292,494,295" Grid.Row="1"
+                >
+                <TextBlock Text="5" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN6_Copy"
+                Click="MNBTN6_Click" Margin="31,376,494,211" Grid.Row="1"
+                >
+                <TextBlock Text="6" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN7_Copy2"
+                Click="MNBTN7_Click" Margin="31,460,494,127" Grid.Row="1"
+                >
+                <TextBlock Text="7" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN8_Copy3"
+                Click="MNBTN8_Click" Margin="31,545,494,42" Grid.Row="1"
+                >
+                <TextBlock Text="8" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN9_Copy4"
+                Click="MNBTN9_Click" Margin="128,2,398,633" Grid.RowSpan="2"
+                >
+                <TextBlock Text="9" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN10_Copy5"
+                Click="MNBTN10_Click" Margin="128,37,398,550" Grid.Row="1"
+                >
+                <TextBlock Text="10" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN11_Copy"
+                Click="MNBTN11_Click" Margin="128,122,398,465" Grid.Row="1"
+                >
+                <TextBlock Text="11" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN12_Copy1"
+                Click="MNBTN12_Click" Margin="128,208,398,379" Grid.Row="1"
+                >
+                <TextBlock Text="12" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN13_Copy2"
+                Click="MNBTN13_Click" Margin="128,292,398,295" Grid.Row="1"
+                >
+                <TextBlock Text="13" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN14_Copy3"
+                Click="MNBTN14_Click" Margin="128,376,398,211" Grid.Row="1"
+                >
+                <TextBlock Text="14" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN15_Copy4"
+                Click="MNBTN15_Click" Margin="128,460,398,127" Grid.Row="1"
+                >
+                <TextBlock Text="15" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN16_Copy6"
+                Click="MNBTN16_Click" Margin="128,545,398,42" Grid.Row="1"
+                >
+                <TextBlock Text="16" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN17_Copy7"
+                Click="MNBTN17_Click" Margin="425,3,100,632" Grid.RowSpan="2"
+                >
+                <TextBlock Text="17" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN18_Copy8"
+                Click="MNBTN18_Click" Margin="425,37,100,550" Grid.Row="1"
+                >
+                <TextBlock Text="18" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN19_Copy9"
+                Click="MNBTN19_Click" Margin="425,122,100,465" Grid.Row="1"
+                >
+                <TextBlock Text="19" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN20_Copy10"
+                Click="MNBTN20_Click" Margin="425,208,100,379" Grid.Row="1"
+                >
+                <TextBlock Text="20" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN21_Copy11"
+                Click="MNBTN21_Click" Margin="425,292,100,295" Grid.Row="1"
+                >
+                <TextBlock Text="21" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN22_Copy12"
+                Click="MNBTN22_Click" Margin="425,364,100,223" Grid.Row="1"
+                >
+                <TextBlock Text="22" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN23_Copy13"
+                Click="MNBTN23_Click" Margin="425,448,100,139" Grid.Row="1"
+                >
+                <TextBlock Text="23" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN24_Copy14"
+                Click="MNBTN24_Click" Margin="425,533,100,54" Grid.Row="1"
+                >
+                <TextBlock Text="24" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN25_Copy15"
+                Click="MNBTN25_Click" Margin="508,2,18,633" Grid.RowSpan="2"
+                >
+                <TextBlock Text="25" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN26_Copy16"
+                Click="MNBTN26_Click" Margin="508,37,18,550" Grid.Row="1"
+                >
+                <TextBlock Text="26" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN27_Copy17"
+                Click="MNBTN27_Click" Margin="508,122,18,465" Grid.Row="1"
+                >
+                <TextBlock Text="27" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN28_Copy18"
+                Click="MNBTN28_Click" Margin="508,208,18,379" Grid.Row="1"
+                >
+                <TextBlock Text="28" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN29_Copy19"
+                Click="MNBTN29_Click" Margin="508,292,18,295" Grid.Row="1"
+                >
+                <TextBlock Text="29" FontSize="30"/>
+            </Button>
+            <Button
+                Height="65"
+                Width="65"
+                Background="Gray"
+                x:Name="MNBTN30_Copy20"
+                Click="MNBTN30_Click" Margin="508,364,18,223" Grid.Row="1"
+                >
+                <TextBlock Text="30" FontSize="30"/>
+            </Button>
+        </Grid>
+    </Border>
+
+
+</Page>
